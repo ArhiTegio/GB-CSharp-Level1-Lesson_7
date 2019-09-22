@@ -18,7 +18,7 @@ namespace _1_GameDoubler
 
         public Game()
         {
-            goal = (new Random()).Next(5, 10);
+            goal = (new Random()).Next(10, 100);
             position = 1;
             ListStep = new List<Action>();
         }

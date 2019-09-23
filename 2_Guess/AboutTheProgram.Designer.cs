@@ -41,8 +41,8 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(355, 52);
             this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "Игра созданна учеником Кузнецовым В.В. GeekBrains под предводительством Сергея Ка" +
-    "мянецкого и непосредственном содействии Антоном Алиевым.";
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.RichTextBox1_TextChanged);
             // 
             // button1
             // 
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 78);
+            this.ClientSize = new System.Drawing.Size(467, 74);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox1);

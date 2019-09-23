@@ -39,14 +39,14 @@
             this.richTextBox1.Location = new System.Drawing.Point(77, 12);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(355, 52);
+            this.richTextBox1.Size = new System.Drawing.Size(481, 52);
             this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "Игра созданна учеником Кузнецовым В.В. GeekBrains под предводительством Сергея Ка" +
-    "мянецкого и непосредственном содействии Антоном Алиевым.";
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.RichTextBox1_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(438, 12);
+            this.button1.Location = new System.Drawing.Point(564, 9);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(23, 52);
             this.button1.TabIndex = 0;
@@ -56,6 +56,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::_1_GameDoubler.Properties.Resources.contact_lens;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(59, 52);
@@ -67,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 68);
+            this.ClientSize = new System.Drawing.Size(595, 69);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox1);
@@ -80,6 +81,7 @@
             this.ShowInTaskbar = false;
             this.Text = "О программе";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.AboutTheProgram_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

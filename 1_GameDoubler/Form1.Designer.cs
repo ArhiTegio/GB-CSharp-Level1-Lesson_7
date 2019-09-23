@@ -210,6 +210,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::_1_GameDoubler.Properties.Resources.idea;
             this.pictureBox1.Location = new System.Drawing.Point(84, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(36, 30);
@@ -219,6 +220,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::_1_GameDoubler.Properties.Resources.idea__1_;
             this.pictureBox3.Location = new System.Drawing.Point(84, 50);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 30);
@@ -229,7 +231,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::_1_GameDoubler.Properties.Resources.ar_glasses;
-            this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
+            this.pictureBox2.InitialImage = null;
             this.pictureBox2.Location = new System.Drawing.Point(15, 63);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(66, 48);
@@ -240,7 +242,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::_1_GameDoubler.Properties.Resources.contact_lens;
-            this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
+            this.pictureBox4.InitialImage = null;
             this.pictureBox4.Location = new System.Drawing.Point(121, 32);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(66, 48);
